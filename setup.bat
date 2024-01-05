@@ -1,7 +1,7 @@
 @echo off
 
 :: Create a virtual environment directory
-mkdir .venv
+mkdir .venv images extracted
 
 :: Install pipenv
 pip install pipenv --user
