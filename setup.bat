@@ -1,7 +1,9 @@
 @echo off
 
+set "script_dir=%~dp0"
+
 :: Create a virtual environment directory
-mkdir .venv images extracted
+mkdir %script_dir%.venv %script_dir%images %script_dir%extracted
 
 :: Install pipenv
 pip install pipenv --user
